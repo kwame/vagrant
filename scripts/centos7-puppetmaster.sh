@@ -13,7 +13,7 @@ yum -y install puppetserver ntp
 wget -q https://raw.githubusercontent.com/kwame/vagrant/master/files/puppetserver -O /etc/sysconfig/puppetserver
 
 # Starting services
-sudo systemctl start puppetserver.service
+systemctl start puppetserver.service
 systemctl start ntpd.service
 systemctl enable ntpd.service
 
