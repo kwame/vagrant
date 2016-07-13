@@ -16,4 +16,3 @@ wget -q https://raw.githubusercontent.com/kwame/vagrant/master/files/puppetserve
 systemctl start puppetserver.service
 systemctl start ntpd.service
 systemctl enable ntpd.service
-
